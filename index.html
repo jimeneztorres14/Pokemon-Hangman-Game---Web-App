@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pokémon Hangman</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <div class="game-wrapper">
+    <h1 class="title">Pokémon Hangman</h1>
+    <p class="subtitle">Guess the Pokémon’s name before you run out of Poké Balls!</p>
+
+    <div class="status-bar">
+      <div class="hp-badges">
+        <span class="enemy">🐾 Wild Pokémon <span class="hp-value" id="enemy-hp-label"></span></span>
+      </div>
+      <div class="pokeballs" id="pokeballs-wrapper"></div>
+    </div>
+
+    <!-- LEFT PANEL -->
+    <div class="left-panel">
+      <div>
+        <div class="word-display" id="word-display">_ _ _ _</div>
+        <p class="hint">Hint: Kanto region Pokémon (Gen 1)</p>
+        <p class="message" id="message"></p>
+      </div>
+
+      <div class="keyboard" id="keyboard"></div>
+    </div>
+
+    <!-- RIGHT PANEL -->
+    <div class="right-panel">
+      <!-- Lottie canvas (hidden until win) -->
+      <canvas id="pokeball-canvas" width="180" height="180" class="pokeball-canvas"></canvas>
+
+      <div class="artwork-wrapper placeholder" id="artwork-wrapper">
+        <img id="artwork-img" class="artwork-img" alt="Mystery Pokémon" />
+      </div>
+
+      <div class="pokemon-name-reveal" id="pokemon-name-reveal">???????</div>
+
+      <div class="controls">
+        <button class="btn btn-primary" id="new-game-btn">🔄 New Pokémon</button>
+      </div>
+
+      <p class="small-label">Artwork from PokéAPI official artwork sprites.</p>
+    </div>
+  </div>
+
+  <!-- Load JS as a module (needed for DotLottie import) -->
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
