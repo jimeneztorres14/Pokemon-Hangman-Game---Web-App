@@ -26,14 +26,14 @@
         <p class="hint">Hint: Kanto region Pokémon (Gen 1)</p>
         <p class="message" id="message"></p>
       </div>
+      <!-- Lottie Pokeball canvas -->
+      <canvas id="pokeball-canvas" width="180" height="180" class="pokeball-canvas" speed="3"></canvas>
 
       <div class="keyboard" id="keyboard"></div>
     </div>
 
     <!-- RIGHT PANEL -->
     <div class="right-panel">
-      <!-- Lottie canvas (hidden until win) -->
-      <canvas id="pokeball-canvas" width="180" height="180" class="pokeball-canvas"></canvas>
 
       <div class="artwork-wrapper placeholder" id="artwork-wrapper">
         <img id="artwork-img" class="artwork-img" alt="Mystery Pokémon" />
@@ -49,7 +49,6 @@
     </div>
   </div>
 
-  <!-- Load JS as a module (needed for DotLottie import) -->
   <script type="module" src="./app.js"></script>
 </body>
 </html>
