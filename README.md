@@ -6,6 +6,7 @@ This project emphasizes test scenario creation, execution, and defect reporting 
 
 ---
 **Live Game on:** https://jimeneztorres14.github.io/Pokemon-Hangman-Game---Web-App/
+
 **Trello Test Board:** https://trello.com/b/zms4t2Dw
 
 ## Project Overview
