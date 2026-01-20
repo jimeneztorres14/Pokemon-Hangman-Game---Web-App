@@ -5,6 +5,8 @@ A Pokémon-themed Hangman web application created to demonstrate manual testing,
 This project emphasizes test scenario creation, execution, and defect reporting , with Trello used as the test management tool.
 
 ---
+**Live Game on:** https://jimeneztorres14.github.io/Pokemon-Hangman-Game---Web-App/
+**Trello Test Board:** https://trello.com/b/zms4t2Dw
 
 ## Project Overview
 
